@@ -11,15 +11,19 @@ video{
 }
 
 .Box{
-    border: 3px solid black;
+    border: 3px solid rgb(21, 12, 123);
     padding: 20px;
     margin: 20px;
     background-color: rgb(196, 219, 230);
 }
 
-img{
-    background: transparent;
-    border: none;
+.image-manage{
+    width: 110px;
+    height: 110px;
+}
+
+h2{
+    color: rgb(14, 14, 123);
 }
 
 
