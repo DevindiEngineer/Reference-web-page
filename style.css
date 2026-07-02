@@ -17,5 +17,10 @@ video{
     background-color: rgb(196, 219, 230);
 }
 
+img{
+    background: transparent;
+    border: none;
+}
+
 
 
