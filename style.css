@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(149, 180, 216);
+}
+
+video{
+    width: 500px;
+    height: 300px;
+    object-fit: fill;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.Box{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(196, 219, 230);
+}
+
+
+
