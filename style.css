@@ -1,16 +1,14 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(149, 180, 216);
 }
 
-video{
-    width: 500px;
-    height: 300px;
-    object-fit: fill;
-    display: block;
-    margin-bottom: 20px;
-}
-
-.Box{
+.Box {
     border: 3px solid rgb(21, 12, 123);
     padding: 20px;
     margin: 20px;
@@ -18,13 +16,26 @@ video{
 }
 
 .image-manage{
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
 }
 
-h2{
+
+h2 {
     color: rgb(14, 14, 123);
 }
 
 
+video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
